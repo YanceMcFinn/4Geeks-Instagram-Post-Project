@@ -1,0 +1,95 @@
+*/* {
+    border: 1px red dotted;
+}
+*/
+
+* {
+    margin: 0em;
+}
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.post{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.profPic{
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+
+.header{
+    width: 100%;
+    display: block;
+    height: 60px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.username {
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.iconBox{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.floatRight {
+    float: right;
+}
+
+.topRight {
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+
+.image {
+    width: 100%;
+}
+.fa-bookmark {
+    margin-left: 365px;
+    display: inline-block;
+}
+.info{
+    height: 200px;
+    display: block;
+    background-color: white;
+    padding: 15px;
+}
+
+.interactions{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+    height: 30px;
+}
+.likes {
+    font-family: 'Roboto', sans-serif;
+    clear: both;
+    margin: auto;
+}
+.description{
+    width: 100%;
+    background-color: white;
+    display: block;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.description > p{
+    margin: 0;
+}
